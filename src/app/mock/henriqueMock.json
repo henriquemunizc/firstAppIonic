@@ -1,0 +1,46 @@
+{
+    "pontoEletronico": [
+        {
+            "nome": "Henrique Muniz",
+            "matricula": "S1",
+            "dia": "02/09/2019",
+            "diaDaSemana": "Segunda-Feira",
+            "saldoGeral": "00:00",
+            "registros": [
+                {
+                    "entrada": "08:00",
+                    "saida": "12:00",
+                    "trabalhado": "04:00",
+                    "observacao": "Teste1.1"
+                },
+                {
+                    "entrada": "13:00",
+                    "saida": "17:00",
+                    "trabalhado": "04:00",
+                    "observacao": "Teste1.2"
+                }
+            ]
+        },
+        {
+            "nome": "Henrique Muniz",
+            "matricula": "S1",
+            "dia": "04/09/2019",
+            "diaDaSemana": "Quarta-Feira",
+            "saldoGeral": "00:01",
+            "registros": [
+                {
+                    "entrada": "08:00",
+                    "saida": "15:00",
+                    "trabalhado": "07:00",
+                    "observacao": "Teste1.3"
+                },
+                {
+                    "entrada": "17:30",
+                    "saida": "18:31",
+                    "trabalhado": "08:00",
+                    "observacao": "Teste1.3"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,154 @@
+{
+    "pontoEletronico": [
+        {
+            "id": "1",
+            "nome": "Henrique Muniz",
+            "matricula": "S1",
+            "data": [
+                {
+                    "dia": "02/09/2019",
+                    "diaDaSemana": "Segunda-Feira",
+                    "saldoGeral": "-01:00",
+                    "registros": [
+                        {
+                            "entrada": "08:00",
+                            "saida": "11:59",
+                            "trabalhado": "03:59",
+                            "observacao": "Teste1.1"
+                        },
+                        {
+                            "entrada": "13:00",
+                            "saida": "17:00",
+                            "trabalhado": "04:00",
+                            "observacao": "Teste1.2"
+                        }
+                    ]
+                },
+                {
+                    "dia": "03/09/2019",
+                    "diaDaSemana": "Terca-Feira",
+                    "saldoGeral": "00:00",
+                    "registros": [
+                        {
+                            "entrada": "09:01",
+                            "saida": "16:01",
+                            "trabalhado": "08:00",
+                            "observacao": "Teste1.1"
+                        }
+                    ]
+                },
+                {
+                    "dia": "04/09/2019",
+                    "diaDaSemana": "Quarta-Feira",
+                    "saldoGeral": "00:01",
+                    "registros": [
+                        {
+                            "entrada": "08:00",
+                            "saida": "15:00",
+                            "trabalhado": "07:00",
+                            "observacao": "Teste1.3"
+                        },
+                        {
+                            "entrada": "17:30",
+                            "saida": "18:31",
+                            "trabalhado": "08:00",
+                            "observacao": "Teste1.3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "2",
+            "nome": "Sergio Marcio",
+            "matricula": "S2",
+            "data": [
+                {
+                    "dia": "02/09/2019",
+                    "diaDaSemana": "Segunda-Feira",
+                    "saldoGeral": "01:00",
+                    "registros": [
+                        {
+                            "entrada": "09:00",
+                            "saida": "17:00",
+                            "trabalhado": "09:00",
+                            "observacao": "Teste2.1"
+                        }
+                    ]
+                },
+                {
+                    "dia": "03/09/2019",
+                    "diaDaSemana": "Terça-Feira",
+                    "saldoGeral": "01:00",
+                    "registros": [
+                        {
+                            "entrada": "09:00",
+                            "saida": "17:00",
+                            "trabalhado": "09:00",
+                            "observacao": "Teste2.2"
+                        }
+                    ]
+                },
+                {
+                    "dia": "04/09/2019",
+                    "diaDaSemana": "Quarta-Feira",
+                    "saldoGeral": "01:00",
+                    "registros": [
+                        {
+                            "entrada": "09:00",
+                            "saida": "17:00",
+                            "trabalhado": "09:00",
+                            "observacao": "Teste2.3"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "3",
+            "nome": "Luis Sergio",
+            "matricula": "S3",
+            "data": [
+                {
+                    "dia": "02/09/2019",
+                    "diaDaSemana": "Segunda-Feira",
+                    "saldoGeral": "02:00",
+                    "registros": [
+                        {
+                            "entrada": "10:00",
+                            "saida": "18:00",
+                            "trabalhado": "10:00",
+                            "observacao": "Teste3.1"
+                        }
+                    ]
+                },
+                {
+                    "dia": "03/09/2019",
+                    "diaDaSemana": "Terça-Feira",
+                    "saldoGeral": "02:00",
+                    "registros": [
+                        {
+                            "entrada": "10:00",
+                            "saida": "18:00",
+                            "trabalhado": "10:00",
+                            "observacao": "Teste3.2"
+                        }
+                    ]
+                },
+                {
+                    "dia": "04/09/2019",
+                    "diaDaSemana": "Quarta-Feira",
+                    "saldoGeral": "02:00",
+                    "registros": [
+                        {
+                            "entrada": "10:00",
+                            "saida": "18:00",
+                            "trabalhado": "10:00",
+                            "observacao": "Teste3.3"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

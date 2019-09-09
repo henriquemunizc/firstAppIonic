@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Tab Two
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <!-- <div *ngIf="registrosPontoEletronico$ | async as registrosPontoEletronico"> -->
+  <h4>{{registrosPontoEletronico.matricula}} - {{registrosPontoEletronico.nome}}</h4>
+
+  <ion-list inset>
+    <ion-item *ngFor="let reg of registrosPontoEletronico.data">
+      <ion-grid>
+        <ion-row>
+          <h4>{{reg.dia}} - {{reg.diaDaSemana}}</h4>
+        </ion-row>
+        <ion-row>
+          <ion-col size="11">
+            <div [ngClass]="(reg.saldoGeral > '-00:01')?'saldoGeralVerde':'saldoGeralVermelho'">
+              {{reg.saldoGeral}}
+            </div>
+          </ion-col>
+
+          <ion-col size="1">
+            <ion-icon name="arrow-down"></ion-icon>
+          </ion-col>
+        
+
+        </ion-row>
+      </ion-grid>
+
+    </ion-item>
+  </ion-list>
+  <!-- 
+  </div> -->
+</ion-content>
