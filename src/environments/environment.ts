@@ -6,6 +6,9 @@ export const environment = {
   production: false,
 
   jsonServerHost: 'http://localhost:3000/',
+  isgpAppHost: 'http://stj195585:8091/api/app-isgp/',
+
+
 };
 
 /*
